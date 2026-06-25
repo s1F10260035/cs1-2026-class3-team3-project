@@ -8,12 +8,24 @@
 <body>
     <h1>Tag Filter Test</h1>
 
-    <section id="game-list"></section>
+    <div id="game-detail"></div>
+    <section id="game-detail"></section>
 
     <script src="js/games.js"></script>
     <script src="js/filter.js"></script>
     <script src="js/components.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+    function getGameById(id) {
+        return games.find(game => game.id === id);
+    }
+
+    const game = getGameById("stellaris");
+
+    document.getElementById("game-detail").innerHTML =
+        GameCard(game, "row");
+    </script>
 
 </body>
 </html>

@@ -1,7 +1,7 @@
 // js/games.js
 
 const TAGS = {
-  genre: [
+  genres: [
     "アクション",
     "RPG",
     "シミュレーション",
@@ -11,7 +11,7 @@ const TAGS = {
     "サンドボックス",
   ],
 
-  platform: [
+  platforms: [
     "PC(Steam)",
     "PC(非Steam)",
     "Switch",
@@ -38,8 +38,8 @@ const games = [
     title: "Stellaris",
     image: "images/stellaris.jpg",
 
-    genre: ["ストラテジー", "シミュレーション"],
-    platform: ["PC(Steam)", "PS5", "Xbox"],
+    genres: ["ストラテジー", "シミュレーション"],
+    platforms: ["PC(Steam)", "PS5", "Xbox"],
 
     tags: [
       "宇宙",
@@ -55,8 +55,8 @@ const games = [
     title: "Minecraft",
     image: "images/minecraft.jpg",
 
-    genre: ["サンドボックス", "シミュレーション"],
-    platform: ["PC(非Steam)", "Switch", "PS5", "Xbox", "Mobile"],
+    genres: ["サンドボックス", "シミュレーション"],
+    platforms: ["PC(非Steam)", "Switch", "PS5", "Xbox", "Mobile"],
 
     tags: [
       "サバイバル",
