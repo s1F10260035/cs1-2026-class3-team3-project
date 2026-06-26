@@ -6,6 +6,7 @@ const TAGS = {
     "RPG",
     "シミュレーション",
     "ストラテジー",
+    "RTS",
     "シューティング",
     "FPS",
     "サンドボックス",
@@ -31,6 +32,8 @@ const TAGS = {
     "建築",
     "eスポーツ",
     "チームバトル",
+    "ミリタリー",
+    "戦術",
   ]
 };
 
@@ -94,5 +97,40 @@ const games = [
 
     description:
       "個性豊かなキャラクターを操作し、仲間と協力してリアルタイムで対戦するアクションゲーム。"
-  }
+  },
+    
+  {
+    id: "delta-force",
+    title: "Delta force",
+    image: "images/delta-force.jpg",
+
+    genres: ["FPS", "アクション"],
+    platforms: ["PC(Steam)", "PS5", "Xbox", "Mobile"],
+
+    tags: [
+      "ミリタリー",
+      "マルチプレイヤー",
+      "基本無料",
+    ],
+
+    description: "現代戦をテーマにしたBFライクな基本無料のタクティカルFPS。大規模戦闘や部隊行動を中心に楽しめる"
+  },
+
+  {
+    id: "broken-arrow",
+    title: "Broken Arrow",
+    image: "images/broken-arrow.jpg",
+
+    genres: ["RTS", "シミュレーション"],
+    platforms: ["PC(Steam)"],
+
+    tags: [
+      "ミリタリー",
+      "マルチプレイヤー",
+      "管理",
+      "戦術",
+    ],
+
+    description: "リアルタイムの大規模現代戦ストラテジーゲーム。統合部隊の奥深いウォーゲームと、アクション満載のリアルタイムストラテジーを組み合わせたゲームプレイが特徴だ。"
+  },
 ];
