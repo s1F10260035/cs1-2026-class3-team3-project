@@ -29,6 +29,7 @@ const TAGS = {
     "オープンワールド",
     "マルチプレイヤー",
     "建築",
+    "ミリタリー",
   ]
 };
 
@@ -67,5 +68,22 @@ const games = [
     ],
 
     description: "ブロックでできた世界を探索し、建築や冒険を自由に楽しめるサンドボックスゲーム。"
+  },
+
+  {
+    id: "delta-force",
+    title: "Delta force",
+    image: "images/deltaforce.jpg",
+
+    genres: ["FPS", "アクション"],
+    platforms: ["PC(Steam)", "PS5", "Xbox", "Mobile"],
+
+    tags: [
+      "ミリタリー",
+      "マルチプレイヤー",
+      "基本無料",
+    ],
+
+    description: "現代戦をテーマにしたBFライクな基本無料のタクティカルFPS。大規模戦闘や部隊行動を中心に楽しめる"
   }
 ];
