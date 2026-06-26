@@ -16,7 +16,10 @@
     <section id="row-test"></section>
 
     <h2>一覧生成</h2>
-    <section id="game-list"></section>
+    <h3>Cover一覧</h3>
+    <div id="cover-list"></div>
+    <h3>Row一覧</h3>
+    <div id="row-list"></div>
     <!-- ここまでが画面構成のためのHTML -->
 
     <!-- ここからJSのスクリプト -->
@@ -32,21 +35,25 @@
 
     const stellaris = getGameById("stellaris");
     const minecraft = getGameById("minecraft");
-    const Valorant = getGameById("Valorant");
+    const valorant = getGameById("valorant");
 
     /* 個別表示 */
     document.getElementById("cover-test").innerHTML =
         GameCard(stellaris, "cover") +
         GameCard(minecraft, "cover") +
-        GameCard(Valorant, "cover");
+        GameCard(valorant, "cover");
 
     document.getElementById("row-test").innerHTML =
         GameCard(stellaris, "row") +
         GameCard(minecraft, "row") +
-        GameCard(Valorant, "row");
+        GameCard(valorant, "row");
 
     /* 自動一覧 */
-    renderGameList(games, "cover");
+    document.getElementById("cover-list").innerHTML =
+        games.map(game => GameCard(game, "cover")).join("");
+
+    document.getElementById("row-list").innerHTML =
+        games.map(game => GameCard(game, "row")).join("");
     </script>
 
 </body>

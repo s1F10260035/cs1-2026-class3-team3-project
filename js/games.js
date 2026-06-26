@@ -93,9 +93,9 @@ const games = [
   },
 
   {
-  id: "Valorant",
+  id: "valorant",
   title: "Valorant",
-  image: "images/Valorant.jpg",
+  image: "images/valorant.jpg",
 
   genres: ["シューティング","FPS"],
   platforms: ["PC(非Steam)","PS5"],
