@@ -6,6 +6,7 @@ const TAGS = {
     "RPG",
     "シミュレーション",
     "ストラテジー",
+    "RTS",
     "シューティング",
     "FPS",
     "サンドボックス",
@@ -30,8 +31,12 @@ const TAGS = {
     "マルチプレイヤー",
     "建築",
     "ミリタリー",
+<<<<<<< HEAD
     "基本無料",
     "FPS"
+=======
+    "戦術",
+>>>>>>> fa5439fbdae8303a982abc507a9bbc77149f9d2d
   ]
 };
 
@@ -75,7 +80,7 @@ const games = [
   {
     id: "delta-force",
     title: "Delta force",
-    image: "images/deltaforce.jpg",
+    image: "images/delta-force.jpg",
 
     genres: ["FPS", "アクション"],
     platforms: ["PC(Steam)", "PS5", "Xbox", "Mobile"],
@@ -88,6 +93,7 @@ const games = [
 
     description: "現代戦をテーマにしたBFライクな基本無料のタクティカルFPS。大規模戦闘や部隊行動を中心に楽しめる"
   },
+
   {
   id: "valorant",
   title: "valorant",
@@ -99,5 +105,24 @@ const games = [
   tags: ["FPS","マルチプレイヤー"],
 
   description: "主に5v5で戦うチーム戦タクティカルFPSです。キャラクターごとに特殊能力を持ち、止まらないと銃がまっすぐ飛ばないなどほかのFPSにはない特徴を持っています。基本的にはそれぞれアタック側でスパイクという機械を設置して解除させないようにするのと、ディフェンス側という設置されたスパイクを解除するという二つの役割に分かれて戦います"
+  },
+
+  {
+    id: "broken-arrow",
+    title: "Broken Arrow",
+    image: "images/broken-arrow.jpg",
+
+    genres: ["RTS", "シミュレーション"],
+    platforms: ["PC(Steam)"],
+
+    tags: [
+      "ミリタリー",
+      "マルチプレイヤー",
+      "管理",
+      "戦術",
+    ],
+
+    description: "リアルタイムの大規模現代戦ストラテジーゲーム。統合部隊の奥深いウォーゲームと、アクション満載のリアルタイムストラテジーを組み合わせたゲームプレイが特徴だ。"
+
   },
 ];
