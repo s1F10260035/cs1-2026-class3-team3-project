@@ -6,6 +6,7 @@ const TAGS = {
     "RPG",
     "シミュレーション",
     "ストラテジー",
+    "RTS",
     "シューティング",
     "FPS",
     "サンドボックス",
@@ -30,6 +31,7 @@ const TAGS = {
     "マルチプレイヤー",
     "建築",
     "ミリタリー",
+    "戦術",
   ]
 };
 
@@ -73,7 +75,7 @@ const games = [
   {
     id: "delta-force",
     title: "Delta force",
-    image: "images/deltaforce.jpg",
+    image: "images/delta-force.jpg",
 
     genres: ["FPS", "アクション"],
     platforms: ["PC(Steam)", "PS5", "Xbox", "Mobile"],
@@ -85,5 +87,23 @@ const games = [
     ],
 
     description: "現代戦をテーマにしたBFライクな基本無料のタクティカルFPS。大規模戦闘や部隊行動を中心に楽しめる"
-  }
+  },
+
+  {
+    id: "broken-arrow",
+    title: "Broken Arrow",
+    image: "images/broken-arrow.jpg",
+
+    genres: ["RTS", "シミュレーション"],
+    platforms: ["PC(Steam)"],
+
+    tags: [
+      "ミリタリー",
+      "マルチプレイヤー",
+      "管理",
+      "戦術",
+    ],
+
+    description: "リアルタイムの大規模現代戦ストラテジーゲーム。統合部隊の奥深いウォーゲームと、アクション満載のリアルタイムストラテジーを組み合わせたゲームプレイが特徴だ。"
+  },
 ];
