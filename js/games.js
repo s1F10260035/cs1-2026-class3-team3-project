@@ -93,16 +93,16 @@ const games = [
   },
 
   {
-  id: "valorant",
-  title: "valorant",
-  image: "images/valorant.jpg",
+  id: "Valorant",
+  title: "Valorant",
+  image: "images/Valorant.jpg",
 
   genres: ["シューティング","FPS"],
   platforms: ["PC(非Steam)","PS5"],
 
   tags: ["FPS","マルチプレイヤー"],
 
-  description: "主に5v5で戦うチーム戦タクティカルFPSです。キャラクターごとに特殊能力を持ち、止まらないと銃がまっすぐ飛ばないなどほかのFPSにはない特徴を持っています。基本的にはそれぞれアタック側でスパイクという機械を設置して解除させないようにするのと、ディフェンス側という設置されたスパイクを解除するという二つの役割に分かれて戦います"
+  description: "主に5v5で戦うチーム戦タクティカルFPSです。それぞれアタック側でスパイクという機械を設置して解除させないようにするのと、ディフェンス側という設置されたスパイクを解除するという二つの役割に分かれて戦います"
   },
 
   {
