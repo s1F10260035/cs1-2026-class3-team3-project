@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Filter Test</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>Tag Filter Test</h1>
 
-    <div id="game-detail"></div>
-    <section id="game-detail"></section>
+    <h2>Cover版</h2>
+    <section id="cover-test" class="cover-list"></section>
 
+    <h2>Row版</h2>
+    <section id="row-test"></section>
+
+    <h2>一覧生成</h2>
+    <section id="game-list"></section>
+    <!-- ここまでが画面構成のためのHTML -->
+
+    <!-- ここからJSのスクリプト -->
     <script src="js/games.js"></script>
     <script src="js/filter.js"></script>
     <script src="js/components.js"></script>
@@ -21,10 +30,20 @@
         return games.find(game => game.id === id);
     }
 
-    const game = getGameById("stellaris");
+    const stellaris = getGameById("stellaris");
+    const minecraft = getGameById("minecraft");
 
-    document.getElementById("game-detail").innerHTML =
-        GameCard(game, "row");
+    /* 個別表示 */
+    document.getElementById("cover-test").innerHTML =
+        GameCard(stellaris, "cover") +
+        GameCard(minecraft, "cover");
+
+    document.getElementById("row-test").innerHTML =
+        GameCard(stellaris, "row") +
+        GameCard(minecraft, "row");
+
+    /* 自動一覧 */
+    renderGameList(games, "cover");
     </script>
 
 </body>

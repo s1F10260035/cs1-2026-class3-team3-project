@@ -1,1 +1,53 @@
-/*gitkeep*/
+/* 共通 */
+.game-card {
+    border: 1px solid #888;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+/* Steamライブラリ風：画像メインの小さいカード */
+.game-card-cover {
+    width: 140px;
+    padding: 6px;
+    margin: 8px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.game-card-cover img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    display: block;
+    background: #eee;
+}
+
+.game-card-cover h3 {
+    font-size: 14px;
+    margin: 6px 0 0;
+}
+
+/* Wiki風：横長カード */
+.game-card-row {
+    padding: 12px;
+    margin: 12px 0;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.game-card-row img {
+    width: 160px;
+    height: 90px;
+    object-fit: cover;
+    background: #eee;
+}
+
+.game-card-row h3 {
+    margin: 0 0 8px;
+}
+
+.game-card-row p {
+    margin: 0 0 8px;
+}
