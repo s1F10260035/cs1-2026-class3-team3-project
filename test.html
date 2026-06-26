@@ -32,18 +32,18 @@
 
     const stellaris = getGameById("stellaris");
     const minecraft = getGameById("minecraft");
-    const valorant = getGameById("valorant");
+    const Valorant = getGameById("Valorant");
 
     /* 個別表示 */
     document.getElementById("cover-test").innerHTML =
         GameCard(stellaris, "cover") +
         GameCard(minecraft, "cover") +
-        GameCard(valorant, "cover");
+        GameCard(Valorant, "cover");
 
     document.getElementById("row-test").innerHTML =
         GameCard(stellaris, "row") +
         GameCard(minecraft, "row") +
-        GameCard(valorant, "row");
+        GameCard(Valorant, "row");
 
     /* 自動一覧 */
     renderGameList(games, "cover");
