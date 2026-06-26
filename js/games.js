@@ -32,7 +32,12 @@ const TAGS = {
     "マルチプレイヤー",
     "建築",
     "ミリタリー",
+<<<<<<< HEAD
+    "基本無料",
+    "FPS"
+=======
     "戦術",
+>>>>>>> fa5439fbdae8303a982abc507a9bbc77149f9d2d
   ]
 };
 
@@ -91,6 +96,19 @@ const games = [
   },
 
   {
+  id: "valorant",
+  title: "valorant",
+  image: "images/valorant.jpg",
+
+  genres: ["シューティング","FPS"],
+  platforms: ["PC(非Steam)","PS5"],
+
+  tags: ["FPS","マルチプレイヤー"],
+
+  description: "主に5v5で戦うチーム戦タクティカルFPSです。キャラクターごとに特殊能力を持ち、止まらないと銃がまっすぐ飛ばないなどほかのFPSにはない特徴を持っています。基本的にはそれぞれアタック側でスパイクという機械を設置して解除させないようにするのと、ディフェンス側という設置されたスパイクを解除するという二つの役割に分かれて戦います"
+  },
+
+  {
     id: "broken-arrow",
     title: "Broken Arrow",
     image: "images/broken-arrow.jpg",
@@ -106,6 +124,7 @@ const games = [
     ],
 
     description: "リアルタイムの大規模現代戦ストラテジーゲーム。統合部隊の奥深いウォーゲームと、アクション満載のリアルタイムストラテジーを組み合わせたゲームプレイが特徴だ。"
+
   },
 
   {
