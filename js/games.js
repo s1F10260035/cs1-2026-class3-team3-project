@@ -10,6 +10,7 @@ const TAGS = {
     "シューティング",
     "FPS",
     "サンドボックス",
+    "フライトシミュレーター",
   ],
 
   platforms: [
@@ -33,6 +34,8 @@ const TAGS = {
     "eスポーツ",
     "チームバトル",
     "ミリタリー",
+    "基本無料",
+    "FPS",
     "戦術",
   ]
 };
@@ -117,6 +120,19 @@ const games = [
   },
 
   {
+  id: "valorant",
+  title: "Valorant",
+  image: "images/valorant.jpg",
+
+  genres: ["シューティング","FPS"],
+  platforms: ["PC(非Steam)","PS5"],
+
+  tags: ["FPS","マルチプレイヤー"],
+
+  description: "主に5v5で戦うチーム戦タクティカルFPSです。それぞれアタック側でスパイクという機械を設置して解除させないようにするのと、ディフェンス側という設置されたスパイクを解除するという二つの役割に分かれて戦います"
+  },
+
+  {
     id: "broken-arrow",
     title: "Broken Arrow",
     image: "images/broken-arrow.jpg",
@@ -132,5 +148,24 @@ const games = [
     ],
 
     description: "リアルタイムの大規模現代戦ストラテジーゲーム。統合部隊の奥深いウォーゲームと、アクション満載のリアルタイムストラテジーを組み合わせたゲームプレイが特徴だ。"
+
+  },
+
+  {
+    id: "elite-dangerous",
+    title: "Elite: Dangerous",
+    image: "images/elite-dangerous.jpg",
+
+    genres: ["フライトシミュレーター", "シミュレーション"],
+    platforms: ["PC(Steam)", "XBOX"],
+
+    tags: [
+      "宇宙",
+      "探索",
+      "オープンワールド",
+      "アクション",
+    ],
+
+    description: "天の川銀河をほぼ実寸で再現した宇宙シミュレーションゲーム。交易、戦闘、採掘、探検などを自由に行いながら、自分だけの宇宙生活を楽しめる。"
   },
 ];
